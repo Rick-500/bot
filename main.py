@@ -103,7 +103,7 @@ async def character_info(message: types.Message, state: FSMContext):
     image = types.InputFile(image_path)
     await message.reply_photo(image)
     await message.answer(
-        "здесь тебя поджидает чудовищный креститель, возбмите стихии который контят пиро крио гидро")
+        "здесь тебя поджидает чудовищный креститель, возбмите стихии который контрят пиро крио гидро")
 
 #############################################################################################################################################
 @dp.message_handler(commands=['11flor'], state="*")
