@@ -1,11 +1,8 @@
+from aiogram import Bot, Dispatcher, executor, types
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher import FSMContext
+
 from config import TOKEN
-import requests
-from PIL import Image
-from aiogram import Bot, Dispatcher, executor, types
-
-
 from guides import characters
 
 # Создаем экземпляры классов Bot и Dispatcher
